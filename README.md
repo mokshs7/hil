@@ -22,28 +22,39 @@ This project provides a TypeScript-based utility for fetching address suggestion
 
 1. Clone the Repository: 
 ```
-git clone <repository-url> 
+git clone https://github.com/mokshs7/hil.git 
 cd HIL
 ```
 
 2. Install Dependencies:
-* npm install
+```
+npm install
+```
 
 3. Set Up Environment Variables:
 * Create a .env file in the root directory
 * Add your TomTom API key:
+```
 API_KEY=Oyb0npJAVdRwDauqpFez7zKCy2euUYql
+```
 
 4. Build the Project:
-* npm run build
+```
+npm run build
+```
 
 ## Usage
 
 * Fetch Address Suggestions
-Run the Script: npx ts-node src/testQuickRouteAddress.ts
+Run the Script: 
+```
+npx ts-node src/testQuickRouteAddress.ts
+```
 
 * You can manually add or remove the incomplete addresses to the to **testAddresses** list in the **testQuickRouteAddress.ts** file to fetch the suggestions
 
 ## Running Tests
 * Execute the test suite using Jest:
+```
 npm test
+```
