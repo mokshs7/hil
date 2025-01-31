@@ -21,7 +21,7 @@ This project provides a TypeScript-based utility for fetching address suggestion
 ## Setup and Installation
 
 1. Clone the Repository: 
-* git clone <repository-url>
+bash git clone <repository-url>
 * cd HIL
 
 2. Install Dependencies:
